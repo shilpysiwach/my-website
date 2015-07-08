@@ -1,0 +1,13 @@
+
+html, body {width:100%}
+#header {
+    z-index:1;
+    position:fixed;
+	height:200px;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#full-bleed {background-image:url('/D:/Pictures/website pics/sketch.png');background-size:100%;}

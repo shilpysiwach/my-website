@@ -1,0 +1,76 @@
+
+html, body {width:100%}
+#header {
+    z-index:1;
+	margin-top:0px;
+    position:fixed;
+	height:180px;
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#full-bleed {background-image:url('/D:/Pictures/website pics/sketch.png');background-size:100%;}
+#navigation {
+background-color:grey;
+height:100px;
+margin-top:0px;}
+#container {
+background-image:url('/D:/Pictures/website pics/img1.jpg');
+background-size:50%;
+height:500px;
+width:500px;
+border:2px solid black;
+margin-right:845px;
+top:348px
+}
+.img{
+height:500px;
+width:500px;
+margin-right:600px;
+top:348px;
+position:absolute;
+}
+
+#left_holder {
+height:450px;
+width:100px;
+position:absolute;
+left:0px;
+top:0px;
+}
+
+#right_holder {
+height:450px;
+width:100px;
+position:absolute;
+right:0px;
+top:0px;
+}
+
+.left {
+height:50px;
+width:50px;
+position:absolute;
+top:40%;
+left:0px;
+
+}
+
+.right {
+height:50px;
+width:50px;
+position:absolute;
+top:40%;
+right:0px;
+}
+
+iframe {
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}
