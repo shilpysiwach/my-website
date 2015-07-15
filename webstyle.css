@@ -1,36 +1,46 @@
+html, body { width:100% }
 
-html, body {width:100%}
 #header {
-    z-index:1;
+	z-index:1;
 	margin-top:0px;
-    position:fixed;
+	position:fixed;
 	height:180px;
-    width:100%;
-    background-color:black;
-    color:white;
-    text-align:center;
-    padding:5px;
+	width:100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:5px;
 }
-#full-bleed {background-image:url('/D:/Pictures/website pics/sketch.png');background-size:100%;}
+
+#header h1 {
+	margin: 10px 0;
+}
+
 #navigation {
-background-color:grey;
-height:100px;
-margin-top:0px;}
-#container {
-background-image:url('/D:/Pictures/website pics/img1.jpg');
-background-size:50%;
-height:500px;
-width:500px;
-border:2px solid black;
-margin-right:845px;
-top:348px
+	background-color:grey;
+	left:0;
+	right:0;
 }
-.img{
-height:500px;
-width:500px;
-margin-right:600px;
-top:348px;
-position:absolute;
+
+#container {
+	background-image:url('images/img1.jpg');
+	background-size:50%;
+	height:500px;
+	width:500px;
+	border:2px solid black;
+	margin-right:845px;
+	top:348px
+}
+
+.img-duplicate {
+	height:500px;
+	width:500px;
+	margin-right:600px;
+	top:348px;
+	position:absolute;
 }
 
 #left_holder {
